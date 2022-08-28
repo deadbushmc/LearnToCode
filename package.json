@@ -1,0 +1,10 @@
+{
+  "name": "learntocode",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "build": "tailwindcss build -i css/input.css -o css/output.css",
+    "dev": "tailwindcss --watch -i css/input.css -o css/output.css"
+  }
+}

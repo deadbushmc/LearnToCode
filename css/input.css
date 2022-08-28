@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+    @apply text-center inline-flex justify-center items-center flex-col;
+}
+
+.link {
+    @apply p-2 text-base xl:text-lg rounded-md bg-[#003A61] text-[#E2F3FF] text-center align-middle inline-flex justify-center transition-colors hover:bg-[#002E4E] duration-200 items-center;
+}
